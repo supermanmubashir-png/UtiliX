@@ -1,0 +1,20 @@
+{
+  "name": "UtiliX",
+  "short_name": "UtiliX",
+  "description": "Free AI chat powered by OpenRouter. Private, offline-ready, no backend, no tracking.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#070b10",
+  "theme_color": "#00e5ff",
+  "orientation": "any",
+  "icons": [
+    {"src": "icon.svg", "sizes": "192x192", "type": "image/svg+xml", "purpose": "any"},
+    {"src": "icon.svg", "sizes": "512x512", "type": "image/svg+xml", "purpose": "any maskable"}
+  ],
+  "screenshots": [],
+  "categories": ["productivity", "utilities"],
+  "shortcuts": [
+    {"name": "New Chat", "short_name": "New", "url": "./index.html", "description": "Start a new conversation"}
+  ]
+}
